@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "build",
+        "baseUrl": "./src",
+        "paths": {
+            "p-core/*": [
+                "../../p-core/src/*"
+            ]
+        }
+    },
+    "references": [
+        {"path": "../p-core"}
+    ]
+}

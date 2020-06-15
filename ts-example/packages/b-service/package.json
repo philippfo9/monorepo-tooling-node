@@ -1,0 +1,30 @@
+{
+  "name": "@phifo/b-service",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "philippfo9 <philipp@webseps.at>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "directories": {
+    "lib": "build",
+    "test": "__tests__"
+  },
+  "files": [
+    "build"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "compile": "tsc -p tsconfig.json",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^3.9.5"
+  }
+}
