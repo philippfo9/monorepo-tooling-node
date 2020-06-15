@@ -1,0 +1,21 @@
+{
+  "name": "@quramy/x-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./lib",
+    "compile": "tsc -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^14.0.1"
+  },
+  "devDependencies": {
+    "typescript": "~3.8.3"
+  }
+}

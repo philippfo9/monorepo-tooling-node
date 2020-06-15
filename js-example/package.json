@@ -1,0 +1,19 @@
+{
+  "name": "monorepo-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bootstrap": "lerna bootstrap --hoist",
+    "compile": "lerna run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@phifo/core": "file:packages/core/lib"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.build.json",
+
+  "compilerOptions": {
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@nighttrax/*": ["packages/*/src"],
+      "@nighttrax/foo/*": ["packages/foo/src/*"]
+    }
+  }
+}

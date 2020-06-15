@@ -1,0 +1,14 @@
+{
+    "files": [],
+    "exclude": [
+        "node_modules",
+        "lib"
+    ],
+    "paths": {
+        "@quramy/*": ["./*/src"]
+    },
+    "references": [
+        { "path": "x-core" },
+        { "path": "x-cli" }
+    ]
+}

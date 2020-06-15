@@ -1,0 +1,19 @@
+{
+  "name": "yarn-workspaces-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "yarn workspace backend",
+    "frontend": "yarn workspace frontend",
+    "shared": "yarn workspace shared"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

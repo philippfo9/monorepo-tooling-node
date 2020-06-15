@@ -1,0 +1,26 @@
+{
+  "name": "@phifo/core",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "philippfo9 <philipp@webseps.at>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    ".": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "run": "node lib/core.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
