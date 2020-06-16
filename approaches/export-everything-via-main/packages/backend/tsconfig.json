@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+      /* Basic Options */
+      "outDir": "build",
+      "rootDir": "src",
+      "baseUrl": ".",
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "references": [
+        { "path": "../shared" }
+    ]
+}

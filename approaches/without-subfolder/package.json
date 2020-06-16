@@ -1,0 +1,26 @@
+{
+  "name": "yarn-workspaces-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "backend": "yarn workspace backend",
+    "frontend": "yarn workspace frontend",
+    "shared": "yarn workspace shared",
+    "bootstrap": "lerna bootstrap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.21.0"
+  }
+}
